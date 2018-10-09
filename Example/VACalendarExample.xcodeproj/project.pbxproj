@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02A1BE58216CCF6700154571 /* VerticalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1BE57216CCF6700154571 /* VerticalCalendar.swift */; };
 		232C92CC1FBB4EC990664EC6 /* Pods_VACalendarExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689EC01A8A7FE93E3C3D42E9 /* Pods_VACalendarExample.framework */; };
 		60086D90204C72EC002097E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D8F204C72EC002097E7 /* AppDelegate.swift */; };
 		60086D92204C72EC002097E7 /* VerticalCalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D91204C72EC002097E7 /* VerticalCalendarController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02A1BE57216CCF6700154571 /* VerticalCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalCalendar.swift; sourceTree = "<group>"; };
 		60086D8C204C72EC002097E7 /* VACalendarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VACalendarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60086D8F204C72EC002097E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60086D91204C72EC002097E7 /* VerticalCalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCalendarController.swift; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02A1BE56216CCF4F00154571 /* VDS */ = {
+			isa = PBXGroup;
+			children = (
+				02A1BE57216CCF6700154571 /* VerticalCalendar.swift */,
+			);
+			path = VDS;
+			sourceTree = "<group>";
+		};
 		60086D83204C72EC002097E7 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,7 @@
 		60086D8E204C72EC002097E7 /* VACalendarExample */ = {
 			isa = PBXGroup;
 			children = (
+				02A1BE56216CCF4F00154571 /* VDS */,
 				60086D8F204C72EC002097E7 /* AppDelegate.swift */,
 				60086D91204C72EC002097E7 /* VerticalCalendarController.swift */,
 				608A2CB42052B26900F3790F /* HorizontalCalendarController.swift */,
@@ -244,6 +255,7 @@
 			files = (
 				60086D92204C72EC002097E7 /* VerticalCalendarController.swift in Sources */,
 				608A2CB52052B26900F3790F /* HorizontalCalendarController.swift in Sources */,
+				02A1BE58216CCF6700154571 /* VerticalCalendar.swift in Sources */,
 				609D49C3208254E2005868CD /* View.swift in Sources */,
 				60FFF57F206559DF00A30314 /* CalendarPopUpView.swift in Sources */,
 				60086D90204C72EC002097E7 /* AppDelegate.swift in Sources */,
