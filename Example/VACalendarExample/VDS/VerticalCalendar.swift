@@ -44,6 +44,9 @@ class VerticalCalendar: UIView {
     }
 
     private func setupCalendar() {
+        self.layer.cornerRadius = 15
+        self.layer.masksToBounds = true
+        
         weekDaysView = VAWeekDaysView(frame: CGRect(x: 10, y: 0, width: self.frame.width, height: 80))
         let appereance = VAWeekDaysViewAppearance(symbolsType: .short, calendar: defaultCalendar)
         weekDaysView.appearance = appereance
@@ -80,6 +83,12 @@ class VerticalCalendar: UIView {
     override func layoutSubviews() {
         super.layoutSubviews()
         if calendarView.frame == .zero {
+            weekDaysView.frame = CGRect(
+                x: 0,
+                y: 0,
+                width: self.frame.width,
+                height: 80
+            )
             calendarView.frame = CGRect(
                 x: 0,
                 y: weekDaysView.frame.maxY,
